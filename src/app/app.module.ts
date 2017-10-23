@@ -5,14 +5,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 
 //bootstrap
-import {CollapseModule} from 'ngx-bootstrap/collapse'
+import {CollapseModule} from 'ngx-bootstrap/collapse';
+import { ResumeComponent } from './resume/resume.component'
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
