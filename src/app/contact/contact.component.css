@@ -1,0 +1,70 @@
+div{
+    background-color: #252d54;
+    color: #ebc17d;
+    font-size: 18.77px;
+}
+
+form
+{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2
+{
+    color: #ffffff;
+    text-align: center;
+}
+
+h3
+{
+    color: #ebc17d;
+    margin: 0 0 25px 0;
+}
+
+input
+{
+    font-size: 18.77px;
+    display: block;
+    font-family: maven Pro;
+    margin: 0;
+    width: 100%;
+}
+
+label
+{
+    display: block;
+    padding: 25px 0 10px 0;
+}
+
+label:first-of-type
+{
+    padding: 0 0 10px 0
+}
+textarea
+{
+    font-size: 18.77px;
+    height: 150px;
+    display: block;
+    font-family: maven Pro;
+    width: 100%;
+}
+
+button
+{
+    background-color: #D6A967;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: maven pro;
+    font-size: 18.77px;
+    margin: 25px 0 0 0;
+    padding: 10px;
+    transition: background-color .2s;
+    width: 100%;
+}
+
+button:hover
+{ 
+     background-color: #ebc17d
+ }

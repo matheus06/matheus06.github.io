@@ -1,15 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
-input,
-select,
-textarea {
-    max-width: 280px;
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100);
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:400);
+
+*
+{
+  box-sizing: border-box
 }
 
-.main-container {
-   padding-right: 15px;
-   padding-left: 15px;
-   margin-right: auto;
-   margin-left: auto;
-   overflow:hidden;
-   min-height:350px !important;
+a
+{
+  text-decoration: none;
+  color: blue;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Maven Pro;
+}
+
+button:hover
+{
+    background-color: #ebc17d
+}
+ 
+h1, h2, h3, h4, h5, h6
+{
+  font-weight: normal;
+  margin: 0 0 30px 0;
+}
+
+h1
+{
+  font-size: 72px
+}
+
+h2
+{
+  font-family: 'Exo 2';
+  text-transform: uppercase;
+}
+
+input
+{
+  display: block;
+  font-family: maven Pro;
+  margin: 0;
+  width: 100%;
+}
+
+p
+{
+  margin: 0 0 20px 0;
+}
+
+section
+{
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: auto;
+  padding: 50px 20px;
+}
+
+textarea
+{
+  display: block;
+  font-family: maven Pro;
+  width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }

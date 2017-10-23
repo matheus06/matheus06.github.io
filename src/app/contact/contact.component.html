@@ -1,0 +1,22 @@
+<div id="contact" class="contact" *ngIf="!sucess">
+  <section>
+    <h2>Message Me</h2>
+    <form novalidate (ngSubmit)="sendMessage()">
+       <div class="form-horizontal">
+          <label htmlFor="name">Name</label>
+          <input type="text" [(ngModel)]="name" name="name" placeholder="Your Name...">
+          <label htmlFor="email">Email Address</label>
+          <input type="email" [(ngModel)]="email" name="email" placeholder="Your@email...">
+          <label htmlFor="message">Message</label>
+          <textarea [(ngModel)]="message" name="message" placeholder="Your Message..."></textarea>
+          <span><button class="btn btn-send" id="Send" type="submit">Send Message</button></span>
+        </div>
+      </form>
+  </section>
+</div>
+<div *ngIf="sucess">
+    <section>
+    <h3>Message sent!</h3>
+    <p>Thank you! I will be in touch.</p>
+  </section>
+</div>
