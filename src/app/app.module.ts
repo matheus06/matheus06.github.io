@@ -6,7 +6,8 @@ import { HeaderComponent } from './header/header.component';
 
 //bootstrap
 import {CollapseModule} from 'ngx-bootstrap/collapse';
-import { ResumeComponent } from './resume/resume.component'
+import { ResumeComponent } from './resume/resume.component';
+import { FooterComponent } from './footer/footer.component'
 
 
 
@@ -14,7 +15,8 @@ import { ResumeComponent } from './resume/resume.component'
   declarations: [
     AppComponent,
     HeaderComponent,
-    ResumeComponent
+    ResumeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
