@@ -1,7 +1,7 @@
 # Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> This is my portfolio
+> This is my portfolio made in Angular
 
 ## Get started
 
