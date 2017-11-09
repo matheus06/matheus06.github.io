@@ -1,0 +1,99 @@
+.image
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 125px;
+    margin: 0 auto 25px auto;
+    width: 125px;
+}
+
+.angular
+{
+    background-image: url(../../assets/angular.png);
+    background-size: contain;
+}
+
+.csharp
+{
+    background-image: url(../../assets/csharp.png);
+    background-size: contain;
+}
+
+.netcore
+{
+    background-image: url(../../assets/netcore.svg);
+    background-size: contain;
+}
+
+.docker
+{
+    background-image: url(../../assets/docker.png);
+    background-size: contain;
+}
+
+.mongodb
+{
+    background-image: url(../../assets/mongodb.png);
+    background-size: contain;
+}
+
+.jenkins
+{
+    background-image: url(../../assets/jenkins.png);
+    background-size: contain;
+}
+
+.sqlserver
+{
+    background-image: url(../../assets/sqlserver.png);
+    background-size: contain;
+}
+
+.oracle
+{
+    background-image: url(../../assets/oracle.png);
+    background-size: contain;
+}
+
+.tech
+{
+    color: #000;
+    text-align: center
+}
+
+.tile
+{
+    height: 220px;
+    padding: 0 0 50px 0;
+}
+
+h3
+{
+    color: crimson;
+    margin: 20px 20px 0 20px
+}
+
+.tiles
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    float: left;
+    margin: 0;
+    padding: 0 10px;
+    width: 25%;
+    
+    
+}
+
+@media screen and (max-width: 800px)
+{
+    li{
+        height: 244px;
+        width: 50%;
+    }
+}
