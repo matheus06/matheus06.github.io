@@ -8,8 +8,8 @@ import { AppComponent } from './app.component';
 import {CollapseModule} from 'ngx-bootstrap/collapse';
 
 //firebase
-import { AngularFireModule } from 'angularfire2';
-import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 //my components
 import { HeaderComponent } from './header/header.component';
@@ -40,8 +40,8 @@ var firebaseConfig = {
     BrowserModule,
     FormsModule,
     CollapseModule.forRoot(),
-    AngularFireModule.initializeApp(firebaseConfig), 
-    AngularFirestoreModule 
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
