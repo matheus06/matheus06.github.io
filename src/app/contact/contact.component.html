@@ -1,4 +1,4 @@
-<div id="contact" class="contact" *ngIf="!sucess">
+<div id="contact" class="contact" *ngIf="!success">
   <section>
     <h2>Message Me</h2>
     <form novalidate (ngSubmit)="sendMessage()">
@@ -14,7 +14,7 @@
       </form>
   </section>
 </div>
-<div *ngIf="sucess">
+<div *ngIf="success">
     <section>
     <h3>Message sent!</h3>
     <p>Thank you! I will be in touch.</p>

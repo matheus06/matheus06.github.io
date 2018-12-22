@@ -22,17 +22,17 @@ export class ContactComponent implements OnInit {
   name:string;
   email:string;
   message:string;
-  sucess:boolean;
+  success:boolean;
 
   constructor(private afs: AngularFirestore) { }
 
   ngOnInit() {
-    this.sucess = false;
+    this.success = false;
   }
 
   sendMessage() {
     this.afs.collection('message').add({'name': this.name, 'email': this.email, 'message': this.message});
-    this.sucess = true;
+    this.success = true;
   }
 
 }
