@@ -17,6 +17,8 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component'
 import { FooterComponent } from './footer/footer.component';
 import { TechComponent } from './tech/tech.component';
+import { CertificatesComponent } from './certificates/certificates.component';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 var firebaseConfig = {
   apiKey: "AIzaSyBEvqJcMmISacUt4FSYf5xYLyRY4sd_2Sw",
@@ -34,7 +36,9 @@ var firebaseConfig = {
     ResumeComponent,
     FooterComponent,
     ContactComponent,
-    TechComponent
+    TechComponent,
+    CertificatesComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
