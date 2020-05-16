@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 
@@ -17,7 +18,6 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component'
 import { FooterComponent } from './footer/footer.component';
 import { TechComponent } from './tech/tech.component';
-import { CertificatesComponent } from './certificates/certificates.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 
 var firebaseConfig = {
@@ -37,12 +37,12 @@ var firebaseConfig = {
     FooterComponent,
     ContactComponent,
     TechComponent,
-    CertificatesComponent,
     CertificationsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    BrowserAnimationsModule,
     CollapseModule.forRoot(),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule

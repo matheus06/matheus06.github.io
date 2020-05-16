@@ -31,9 +31,9 @@
     background-size: contain;
 }
 
-.mongodb
+.git
 {
-    background-image: url(../../assets/mongodb.png);
+    background-image: url(../../assets/git.png);
     background-size: contain;
 }
 
@@ -86,8 +86,8 @@ li
     margin: 0;
     padding: 0 10px;
     width: 25%;
-    
-    
+
+
 }
 
 @media screen and (max-width: 800px)
