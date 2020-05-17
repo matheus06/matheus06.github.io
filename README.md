@@ -21,8 +21,6 @@ $ docker build -t portfolio .
 $ docker run -d -p 8080:80 portfolio
 ```
 
-The app will be available at http://localhost:8080 or on http://dockermachineip:8080
+The app will be available at http://localhost:8080
 
-To check docker machine ip use the follow command: 
-docker-machine ip
 
